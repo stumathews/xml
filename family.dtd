@@ -1,0 +1,11 @@
+<!ELEMENT family (name, parent*, child*)>
+<!ELEMENT parent (name,age,nationality,roles,interests)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT roles (role+)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT interests (interest+)>
+<!ELEMENT interest (#PCDATA)>
+<!ELEMENT child (name,age,interests)>
+<!ATTLIST name fullname CDATA #REQUIRED>

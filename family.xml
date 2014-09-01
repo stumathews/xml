@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="family.xsd" type="text/xsl"?>
+<family>
+	<name fullname="">Mathews</name>
+	<parent>
+		<name fullname="Bruce Anthony Mathews">Bruce</name>
+		<age>54</age>
+		<nationality>Zimbabwean</nationality>
+		<roles>
+			<role>father</role>
+			<role>husband</role>
+		</roles>
+		<interests>
+			<interest>Computing</interest>
+			<interest>Stamp collecting</interest>			
+		</interests>				
+	</parent>
+	<parent>
+		<name fullname="Jeanette Elizabeth Mathews">Jenny</name>
+		<age>62</age>
+		<nationality>South African</nationality>
+		<roles>
+			<role>mother</role>
+			<role>wife</role>
+		</roles>
+		<interests>
+			<interest>Arts</interest>
+			<interest>Reading</interest>
+		</interests>
+	</parent>
+	<child>
+		<name fullname="Stuart Robert Charles Mathews">Stuart</name>
+		<age>27</age>
+		<interests>
+			<interest>Computing</interest>
+			<interest>Poetry</interest>
+		</interests>
+	</child>	
+</family>
